@@ -21,11 +21,6 @@ export default function HomePageLandingPagePage() {
         {/* hero section */}
         <div className="mt-[38px] flex flex-col items-start gap-16 sm:gap-8">
           <div className="flex w-[95%] items-start md:w-full md:flex-col md:p-5">
-            <Img
-              src="images/img_svg.svg"
-              alt="svg image"
-              className="relative z-[1] mt-[193px] h-[171px] w-[4%] md:w-full"
-            />
             <div className="flex flex-1 flex-col items-center gap-[34px] md:self-stretch">
               <div className="container-xs md:p-5">
                 <Heading as="h1" className="leading-[75px]">

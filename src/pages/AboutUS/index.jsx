@@ -29,7 +29,7 @@ export default function AboutUSPage() {
                 />
                 <div className="flex w-[65%] items-start justify-between gap-5 pl-[60px] pr-[199px] md:w-full md:px-5 sm:flex-col">
                   <div className="flex w-[63%] items-start justify-between gap-5 sm:w-full">
-                    <div className="flex h-[44px] items-center bg-[url(/public/images/img_home.png)] bg-cover bg-no-repeat px-[11px] pb-3.5 pt-[11px] md:h-auto">
+                    <div className="flex h-[44px] items-center bg-cover bg-no-repeat px-[11px] pb-3.5 pt-[11px] md:h-auto">
                       <Text size="lg" as="p">
                         home
                       </Text>

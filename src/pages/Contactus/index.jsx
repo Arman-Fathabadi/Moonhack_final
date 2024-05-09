@@ -19,47 +19,6 @@ export default function ContactusPage() {
         <div className="flex flex-col items-center gap-[50px]">
           {/* navigation section */}
           <div className="flex flex-col self-stretch">
-            <header className="flex flex-1 items-center justify-center bg-gray-900_01 pt-[19px] md:p-5">
-              <div className="container-xs flex items-center justify-between gap-5 pr-[199px] md:pr-5 sm:flex-col">
-                <a href="#">
-                  <Img
-                    src="images/img_631644375dd15fe.png"
-                    alt="home link"
-                    className="h-[38px] self-end object-cover sm:w-full"
-                  />
-                </a>
-                <ul className="flex flex-wrap items-center gap-[55px] md:gap-5">
-                  <li>
-                    <a href="#" className="h-[44px] bg-[url(/public/images/img_home.png)] bg-cover bg-no-repeat">
-                      <Text size="lg" as="p" className="px-[17px] py-[13px]">
-                        home
-                      </Text>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="mt-2.5">
-                      <Text as="p" className="px-[17px] py-[13px]">
-                        about us
-                      </Text>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="mt-2.5">
-                      <Text as="p" className="px-[17px] py-[13px]">
-                        Contact
-                      </Text>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="mt-2.5">
-                      <Text as="p" className="px-[17px] py-[13px]">
-                        Chat with ProbE
-                      </Text>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </header>
             <div className="flex flex-1 justify-center bg-gray-900_01 pb-3.5 pt-[19px] md:p-5">
               <div className="container-xs flex items-start justify-between gap-5 md:flex-col">
                 <Img
@@ -69,7 +28,7 @@ export default function ContactusPage() {
                 />
                 <div className="flex w-[65%] items-start justify-between gap-5 pl-[60px] pr-[199px] md:w-full md:px-5 sm:flex-col">
                   <div className="flex w-[63%] items-start justify-between gap-5 sm:w-full">
-                    <div className="flex h-[44px] items-center bg-[url(/public/images/img_home.png)] bg-cover bg-no-repeat px-[11px] pb-3.5 pt-[11px] md:h-auto">
+                    <div className="flex h-[44px] items-center bg-cover bg-no-repeat px-[11px] pb-3.5 pt-[11px] md:h-auto">
                       <Text size="lg" as="p">
                         home
                       </Text>

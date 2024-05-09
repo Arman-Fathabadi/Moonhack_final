@@ -8,7 +8,7 @@ export default function Header({ ...props }) {
         <Img src="images/img_header_logo.png" alt="logo image" className="h-[44px] w-[44px] object-contain" />
         <ul className="flex flex-wrap items-center gap-[55px] md:gap-5">
           <li>
-            <a href="#" className="h-[44px] bg-[url(/public/images/img_home.png)] bg-cover bg-no-repeat">
+            <a href="#" className="h-[44px] bg-cover bg-no-repeat">
               <Text size="lg" as="p" className="px-[17px] py-[13px]">
                 home
               </Text>
