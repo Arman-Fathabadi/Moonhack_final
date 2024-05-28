@@ -8,7 +8,7 @@ export default function HomePageLandingPagePage() {
   return (
     <>
       <Helmet>
-        <title>Welcome to Our Knowledge Resource - Explore and Learn</title>
+        <title>Hi to Our Knowledge Resource - Explore and Learn</title>
         <meta
           name="description"
           content="Dive into our knowledge resource for comprehensive answers and personalized study guides across various subjects. Get the clarity and guidance you need for your academic questions."
