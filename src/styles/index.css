@@ -20,9 +20,15 @@ ul {
   list-style: none;
 }
 input {
-  background-color: transparent;
-  width: 100%;
+  
+  background-color:transparent;
+  color: white;
+  width: 735px;
+  
 }
 input:focus {
   outline: none;
 }
+
+
+

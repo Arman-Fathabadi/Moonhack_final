@@ -4,6 +4,11 @@ import { Text, Img, Button } from "../../components";
 import Header from "../../components/Header";
 
 export default function ChatScreenPage() {
+
+  function handleSubmit(e) {
+    
+  }
+
   return (
     <>
       <Helmet>
@@ -30,43 +35,69 @@ export default function ChatScreenPage() {
               <div className="self-stretch">
                 <div className="flex gap-3.5 md:flex-col">
                   <div className="flex w-full flex-col items-center gap-[15px]">
-                    <Img src="images/img_brightness.svg" alt="brightness image" className="h-[22px] w-[22px]" />
+                    <Img
+                      src="images/img_brightness.svg"
+                      alt="brightness image"
+                      className="h-[22px] w-[22px]"
+                    />
                     <Text size="2xl" as="p">
                       Examples
                     </Text>
-                    <Button shape="round" className="w-full font-medium sm:px-5">
+                    <Button
+                      shape="round"
+                      className="w-full font-medium sm:px-5"
+                    >
                       “How big is the sun” →
                     </Button>
-                    <Button shape="round" className="w-full font-medium leading-5">
+                    <Button
+                      shape="round"
+                      className="w-full font-medium leading-5"
+                    >
                       <>
                         “How many subsets does a set
                         <br />
                         with 6 elements have?” →
                       </>
                     </Button>
-                    <Button shape="round" className="w-full font-medium sm:px-5">
+                    <Button
+                      shape="round"
+                      className="w-full font-medium sm:px-5"
+                    >
                       “Why do we Dream” →
                     </Button>
                   </div>
                   <div className="flex w-full flex-col items-center gap-[15px]">
-                    <Img src="images/img_forward.svg" alt="fastforward image" className="h-[19px]" />
+                    <Img
+                      src="images/img_forward.svg"
+                      alt="fastforward image"
+                      className="h-[19px]"
+                    />
                     <Text size="2xl" as="p">
                       Capabilities
                     </Text>
-                    <Button shape="round" className="w-full font-medium leading-5">
+                    <Button
+                      shape="round"
+                      className="w-full font-medium leading-5"
+                    >
                       <>
                         Uses Wiki to find <br />
                         most relevant questions
                       </>
                     </Button>
-                    <Button shape="round" className="w-full font-medium leading-5">
+                    <Button
+                      shape="round"
+                      className="w-full font-medium leading-5"
+                    >
                       <>
                         Uses a special algorithm
                         <br />
                         to find the best Youtube video
                       </>
                     </Button>
-                    <Button shape="round" className="w-full font-medium leading-5">
+                    <Button
+                      shape="round"
+                      className="w-full font-medium leading-5"
+                    >
                       <>
                         New features <br />
                         coming soon!
@@ -74,11 +105,18 @@ export default function ChatScreenPage() {
                     </Button>
                   </div>
                   <div className="flex w-full flex-col items-center">
-                    <Img src="images/img_video_camera.svg" alt="videocamera" className="h-[18px]" />
+                    <Img
+                      src="images/img_video_camera.svg"
+                      alt="videocamera"
+                      className="h-[18px]"
+                    />
                     <Text size="2xl" as="p" className="mt-3.5">
                       Limitations
                     </Text>
-                    <Button shape="round" className="mt-4 w-full font-medium leading-5">
+                    <Button
+                      shape="round"
+                      className="mt-4 w-full font-medium leading-5"
+                    >
                       <>
                         May occasionally generate
                         <br /> Awkward Questions
@@ -92,7 +130,10 @@ export default function ChatScreenPage() {
                         </>
                       </Text>
                     </div>
-                    <Button shape="round" className="mt-[7px] w-full font-medium sm:px-5">
+                    <Button
+                      shape="round"
+                      className="mt-[7px] w-full font-medium sm:px-5"
+                    >
                       Version 3.0
                     </Button>
                   </div>
@@ -102,12 +143,21 @@ export default function ChatScreenPage() {
 
             {/* save image section */}
             <div className="mt-[108px] flex justify-end self-stretch rounded border border-solid border-blue_gray-900 bg-blue_gray-900 px-[13px] pb-[15px] pt-[19px] shadow-md">
-              <Img src="images/img_save.svg" alt="save icon" className="h-[14px] w-[14px]" />
+              <label>
+                <input prompt=" question" />
+              </label>
+              <Button className="bw">hey</Button>
+              <Img
+                src="images/img_save.svg"
+                alt="save icon"
+                className="h-[14px] w-[14px]"
+              />
             </div>
 
             {/* footer text section */}
             <Text size="xs" as="p" className="mt-[15px] !text-white-A700">
-              ProbE is just a prototype for demonstration purpose and is not fully developed
+              ProbE is just a prototype for demonstration purpose and is not
+              fully developed
             </Text>
           </div>
         </div>
