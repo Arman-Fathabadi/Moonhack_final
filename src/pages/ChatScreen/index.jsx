@@ -105,7 +105,7 @@ export default function ChatScreenPage() {
                             <label>
                                 <input name="myinput"/>
                             </label>
-                            <button><Img src="images/send_icon.png" alt="save icon" className="h-[30px] w-[30px]" /></button>
+                            <button><Img src="images/new_send_icon.svg" alt="save icon" className="h-[30px] w-[30px]" /></button>
                             
                         </div>
 
